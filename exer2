@@ -1,0 +1,35 @@
+//2) Dado dois vetores de 10 elementos cada, calcule a média de cada posição correspondente e armazene em um terceiro vetor.
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a[10], b[10], c[10], numero
+
+		escreva("Vetor A\n")
+		para(inteiro i = 0;i<10;i++)
+		{
+			escreva("Digite o ",(i+1),"° numero: ")
+			leia(numero)
+			a[i] = numero
+		}
+		limpa()
+		escreva("Vetor B\n")
+		para(inteiro i = 0;i<10;i++)
+		{
+			escreva("Digite o ",(i+1),"° numero: ")
+			leia(numero)
+			b[i] = numero
+		}
+		para(inteiro i = 0;i<10;i++)
+		{
+			c[i] = (a[i]+b[i])/2
+			
+		}
+		para(inteiro i = 0;i<10;i++)
+		{
+			escreva(c[i]," ,")
+			
+		}
+	}
+}
