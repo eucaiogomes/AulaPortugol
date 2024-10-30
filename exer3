@@ -1,0 +1,36 @@
+//3) Calcule o produto dos elementos de dois vetores de 4 elementos e armazene o resultado em um terceiro vetor.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a[4], b[4], c[4], numero
+
+		escreva("Vetor A\n")
+		para(inteiro i = 0;i<4;i++)
+		{
+			escreva("Digite o ",(i+1),"° numero: ")
+			leia(numero)
+			a[i] = numero
+		}
+		limpa()
+		escreva("Vetor B\n")
+		para(inteiro i = 0;i<4;i++)
+		{
+			escreva("Digite o ",(i+1),"° numero: ")
+			leia(numero)
+			b[i] = numero
+		}
+		para(inteiro i = 0;i<4;i++)
+		{
+			c[i] = (a[i]*b[i])
+			
+		}
+		para(inteiro i = 0;i<4;i++)
+		{
+			escreva(c[i]," ,")
+			
+		}
+	}
+}
